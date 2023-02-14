@@ -16,7 +16,12 @@ If you find our work useful, please cite our paper:
 
 ## `mono-depth-estimation` Repository
 The depth estimation networks are implemented in a [submodule](https://github.com/xeTaiz/mono-depth-estimation), so you should `git submodule update --init` after cloning this repo.
-Big thanks to [Sebastian Hartwig (@kopetri)](https://github.com/kopetri) who did most of the work in compiling those methods into one repository.
+Big thanks to [Sebastian Hartwig (@kopetri)](https://github.com/kopetri) who did most of the work in compiling those methods into one repository. Code of the following methods are taken from the repositories below:
+- VNL [Enforcing geometric constraints of virtual normal for depth prediction.](https://github.com/YvanYin/VNL_Monocular_Depth_Prediction)
+- BTS [From Big to Small: Multi-Scale Local Planar Guidance for Monocular Depth Estimation.](https://github.com/cleinc/bts)
+- Midas [Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer.](https://github.com/isl-org/MiDaS)
+- DORN[Deep Ordinal Regression Network for Monocular Depth Estimation.](https://github.com/dontLoveBugs/DORN_pytorch)
+- FCRN [Deeper Depth Prediction with Fully Convolutional Residual Networks.](https://github.com/dontLoveBugs/FCRN_pytorch)
 
 ## Pre-Trained weights
 TODO
